@@ -61,7 +61,7 @@
                         <div class="col-md-8">
                             <select name="StatusPeminjaman" class="form-control">
                                 <option value="dipinjam">Dipinjam</option>
-                                <option value="dikembalikan">Dikembalikan</option>
+                                <!-- <option value="dikembalikan">Dikembalikan</option> -->
                             </select>
                         </div>
                     </div>

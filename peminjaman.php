@@ -18,7 +18,7 @@
                     <?php
                     $i = 1;
                     $query = mysqli_query($koneksi, "SELECT*FROM peminjam LEFT JOIN userid on userid.UserID = peminjam.UserID 
-                    LEFT JOIN buku on buku.BukuID = peminjam.BukuID");
+                    LEFT JOIN buku on buku.BukuID = peminjam.BukuID WHERE peminjam.UserID");
                     // -- WHERE peminjam.UserID".$_SESSION['userid']['UserID']);
                     while ($data = mysqli_fetch_array($query)) {
                     ?>
