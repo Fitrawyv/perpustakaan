@@ -24,7 +24,7 @@
                     ?>
                         <tr>
                             <td><?php echo $i++ ?></td>
-                            <td><?php echo $data['username']; ?></td>
+                            <td><?php echo $data['Username']; ?></td>
                             <td><?php echo $data['Judul']; ?></td>
                             <td><img style="width: 150px; height:200px;" src="images/<?php echo $data['Sampul']; ?>"></td>
                             <td><?php echo $data['TanggalPeminjaman']; ?></td>

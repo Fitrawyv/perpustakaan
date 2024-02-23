@@ -20,7 +20,7 @@
                 ?>
                 <tr>
                 <td><?php echo $i++ ?></td>
-                <td><?php echo $data['username']; ?></td>
+                <td><?php echo $data['Username']; ?></td>
                 <td><?php echo $data['Judul']; ?></td>
                 <td><?php echo $data['TanggalPeminjaman']; ?></td>
                 <td><?php echo $data['TanggalPengembalian']; ?></td>

@@ -64,7 +64,7 @@
             <tr>
                 <td width="200">Nama</td>
                 <td width="1">:</td>
-                <td><?php echo $_SESSION['userid']['username']; ?></td>
+                <td><?php echo $_SESSION['userid']['Username']; ?></td>
             </tr>
 
             <tr>
